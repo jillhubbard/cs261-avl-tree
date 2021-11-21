@@ -382,13 +382,13 @@ class TestBinarySearchTree(unittest.TestCase):
     #     avl = avl.insert(AVLTree(3))
     #     avl = avl.insert(AVLTree(1))
     #     self.assertEqual(10,avl.key)
-    #     self.assertEqual(13,avl.right.key)
+    #     self.assertEqual(20,avl.right.key)
     #     self.assertEqual(3,avl.left.key)
     #     self.assertEqual(1,avl.left.left.key)
     #     self.assertEqual(5,avl.left.right.key)
-    #     # self.assertEqual(0,avl.balance_factor)
-    #     # self.assertEqual(0,avl.right.balance_factor)
-    #     # self.assertEqual(0,avl.left.balance_factor)
+    #     self.assertEqual(0,avl.balance_factor)
+    #     self.assertEqual(0,avl.right.balance_factor)
+    #     self.assertEqual(0,avl.left.balance_factor)
             
     # def test_larger_tree_LL_balance_factors(self):
     #     """
