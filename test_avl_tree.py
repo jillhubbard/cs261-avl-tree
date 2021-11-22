@@ -386,9 +386,6 @@ class TestBinarySearchTree(unittest.TestCase):
     #     self.assertEqual(3,avl.left.key)
     #     self.assertEqual(1,avl.left.left.key)
     #     self.assertEqual(5,avl.left.right.key)
-    #     self.assertEqual(0,avl.balance_factor)
-    #     self.assertEqual(0,avl.right.balance_factor)
-    #     self.assertEqual(0,avl.left.balance_factor)
             
     # def test_larger_tree_LL_balance_factors(self):
     #     """
